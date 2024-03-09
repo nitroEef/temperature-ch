@@ -24,6 +24,27 @@ function convert() {
         
 //this means at position 2 ,insert lemon and kiwi and  dont remove anything
 
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
 
-fruits.splice(2, 0, "Lemon", "Kiwi");
+// fruits.splice(2, 0, "Lemon", "Kiwi");
+// console.log(fruits)
+
+const fruits = ["Banana", "Orange", "Apple", "Mango", "Kiwi"];
+fruits.splice(2, 2);
+ console.log(fruits)   //at position 2, remove 2
+
+//  const numbers = [4, 9, 16, 25];
+// const newArr = numbers.map(Math.floor)
+
+// console.log(newArr)
+
+
+//multiply all numbers by ten
+const numbers = [65, 44, 12, 4];
+const newArr = numbers.map(myFunction)
+
+function myFunction(num) {
+  return num * 10;
+}
+
+
