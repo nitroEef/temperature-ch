@@ -10,7 +10,7 @@ function convert() {
         temp = temp * 9 / 5 + 32;
 
         //textcontent is just like inner text
-        //to fixed is to return a number we specify fter the decimal point
+        //to fixed is to return a number we specify fter the decimal point...
         result.textContent  = temp.toFixed(4) + "°F";
 
     }else if (toCelsius.checked) {
